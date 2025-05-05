@@ -33,7 +33,7 @@ define([], function () {
 
 In the example above, the `configLocal.userAuthenticationEnabled` setting is updated to **true** to enable security in [ATLAS](https://github.com/OHDSI/Atlas). The `configLocal.api` contains the name and URL to connect to our WebAPI instance. `configLocal.authProviders` is an array that enables the specification of 1 or more authentication providers. A full list of authentication providers is included in the ATLAS `/js/config/app.js` `appConfig.authProviders` section and the ones that are enabled in your environment should be included in the `configLocal.authProviders` list.
 
-For those that followed the [[Basic Security Configuration]], the settings above will work. For those using OAuth/AD, please use the relevant configuration for your setup.
+For those that followed the [Basic Security Configuration](Basic-Security-Configuration.md), the settings above will work. For those using OAuth/AD, please use the relevant configuration for your setup.
 
 ## Defining an Administrator
 You should now be able to load ATLAS and find that you can login to the environment using the authentication provider configured in the previous step.  However, you will have limited permissions.  The following query will list the current permissions that all users have in the database:
