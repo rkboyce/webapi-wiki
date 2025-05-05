@@ -6,7 +6,8 @@ The OHDSI WebAPI is a Java-based application that is designed to provide a set o
 
 The following diagram depicts the logical architecture for the role WebAPI plays in the OHDSI tools ecosystem:
 
-[[/images/WebAPI-Configuration.png|OHDSI WebAPI Logical Architecture Diagram]]
+![OHDSI WebAPI Logical Architecture Diagram](/images/WebAPI-Configuration.png)
+
 
 --------------
 
